@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="noname(1).css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Илья Шишин</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Преимущества</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Начинающий Веб Програмист</h1>
+    <h3>Как способ жизни!</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Наши услуги помогут вам!</h2>
+      <span>Большие возможности по созданию сайтов на любую тематику</span>
+    </div>
+    <div class="text">
+      <span> 1) Вёрстка сайтов<br>
+             2) Блоги<br>
+             3) Фото-галереи<br>
+             4) Реклама<br>
+             5) Интернет магазины<br>
+             6) Доделывание работ <br>
+             7) И многое другое <br>
+       </span>
+    </div>
+  </div>
+
+  <div id="overview">
+    <h2>Преимущества</h2>
+    <h4>с нами все проще</h4>
+    <div class="img">
+      <img src="https://www.elf-media.com/wp-content/uploads/2019/05/service-home-page-optimizachia-saytov-krasnodar-min.png" alt="">
+      <span>Создание сайтов за короткое время</span>
+    </div>
+    <div class="img">
+      <img src="https://24freelance.net/files/uploads/gallery/2016-07/1469014747_73739af7641bee3965c2191c4850aec9_sayt-dlya-ploschadki.jpg" alt="">
+      <span>Возможность создать дизайн сайта самому</span>
+    </div>
+    <div class="img">
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/1904579/pub_5d90764ae6e8ef00b15ba4f6_5d908e953f548700ade70613/scale_1200" alt="">
+      <span>Ответсвенный подход</span>
+    </div>
+    <div class="img">
+      <img src="https://media.mobile-business.by/news/4_tSjIKUy.jpg" alt="">
+      <span>Приветливая обратная связь</span>
+    </div>
+    <div class="img">
+      <img src="http://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkNtofgdNdkzZFQ08_Qlzk6aaKTM5SRkZCeTgDn6uOyic" alt="">
+      <span>Ответим на любые ваши вопросы</span>
+    </div>
+    <div class="img">
+      <img src="https://adoa.ru/photo/b5/86/ad/441396/nuzhnye-uslugi-krasnoyarsk.jpg" alt="">
+      <span>Поможем, объясним, добавим, исправим</span>
+    </div>
+  </div>
+
+
+  <div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="name">Имя <span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+      <label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Оплата</span><br>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>После создания дизайна вы должны отправить деньги на покупку для вас хостинга и домена.<p>
+      <span class="heading">Что после?</span>
+      <p>После этого мною будет куплен домен и арендован хостинг оформляющийся не ваше имя. Вы просматриваете сайт, указываете на недочёты.</p>
+      <span class="heading">Далее</span>
+      <p>Далее вы отправляете деньги на мой Qiwi либо Tinkoff. После этого мною будет отпрвален логин и пароль для входа на сайт.</p>
+    </div>
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Создание сайта под ключ.</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Одностраничные сайты и блоги.</p>
+      <span class="heading">Что сделать я не смогу</span>
+      <p>Форумы.</p>
+    </div>
+    <div>
+      <span class="title">Соцсети</span><br>
+      <span class="heading"><a href="https://vk.com/id567389469">ВКонтакте</a></span><br>
+      <br>
+      <span class="heading"><a href ="https://www.instagram.com/megowith/">Instagram</a></span><br>
+      <br>
+      <span class="heading"><a href="https://e.mail.ru/compose/?1577617593119">Email (shis-nn@mail.ru)</a> </span><br>
+      <br>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
