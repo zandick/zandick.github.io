@@ -22,10 +22,10 @@ window.onload = function() {
 
     // images from reddit/r/wallpapers
     var urls = [
-            'https://i.pinimg.com/originals/3e/4f/cf/3e4fcf5629473d964f985c6b5897840e.jpg',
+            'https://github.com/zandick/zandick.github/blob/master/1%D0%A1%D0%B0%D0%B9%D1%82/anime-devushka-krylya-grust.jpg?raw=true',
             'https://avatars.mds.yandex.net/get-pdb/1823123/6a11e7ab-4d81-43d1-8943-dacfac4a02e1/s1200',
-            'https://wallpaperscave.ru/images/original/18/08-16/anime-k-on-76273.jpg',
-            'https://i.pinimg.com/originals/fc/3f/37/fc3f37d6c933ecf24c7b058ca9c9dcb3.jpg',
+            'https://github.com/zandick/zandick.github/blob/master/1%D0%A1%D0%B0%D0%B9%D1%82/imgonline-com-ua-Resize-MrnleQkTzXW2h.jpg?raw=true',
+            'https://github.com/zandick/zandick.github/blob/master/1%D0%A1%D0%B0%D0%B9%D1%82/imgonline-com-ua-Resize-KQlNUjwBTjl.jpg?raw=true',
             'https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-t40qCdqP4G.jpg',
             'https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-t40qCdqP4G.jpg',
 
