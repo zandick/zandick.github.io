@@ -160,5 +160,9 @@ button.button {
   border: 0;
 }
 
-
+a {
+    color: #08080863;
+    text-decoration: none;
+    background-color: transparent;
+}
 
